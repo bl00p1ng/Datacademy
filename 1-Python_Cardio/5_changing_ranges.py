@@ -1,6 +1,15 @@
 def compare_number(lower, upper, c_number):
     if c_number > lower and c_number < upper:
         print(f'\n→ El número {c_number} esta dentro del rango {lower} - {upper}')
+    elif lower > upper or upper < lower:
+        err_msg = """
+        ⚠ Cometiste un error al ingresar los límites!
+        Recuerda que el límite inferior no puede ser mayor que el superior y viceversa.
+        🔁 Por favor intentalo nuevamente.
+        
+        """
+        print(err_msg)
+        show_menu()
     else:
         print(f'\n→ El número {c_number} NO esta dentro del rango {lower} - {upper}')
         show_menu()
