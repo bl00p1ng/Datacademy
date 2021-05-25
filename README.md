@@ -11,6 +11,7 @@ Código de los Proyectos creados en el [Datacademy](https://platzi.com/blog/data
     - [Reto 3 - Conversor de millas a kilómetros](#reto-3---conversor-de-millas-a-kilómetros)
     - [Reto 4 - Calculadora de volúmenes](#reto-4---calculadora-de-volúmenes)
     - [Reto 5 - Rangos cambiantes](#reto-5---rangos-cambiantes)
+  - [✅ Proyecto 2: Regresión Lineal](#-proyecto-2-regresión-lineal)
 
 ## ✅ Proyecto 1: Python cardio
 
@@ -60,4 +61,10 @@ Escribe un programa que pida al usuario ingresar 3 números: un límite inferior
 Si tu número de comparación se encuentra en el rango de los dos límites, imprímelo en pantalla.
 
 En caso de estar por debajo del inferior o arriba del superior, también muéstralo en pantalla y pide ingresar otro número para repetir el proceso.
+***
+
+## ✅ Proyecto 2: Regresión Lineal
+
+En la semana 2 del Datacademy se creo un modelo de Regresión Lineal con [scikit-learn](https://scikit-learn.org/stable/), además de crear visualizaciones de los resultados del modelo usando [Seaborn](https://seaborn.pydata.org)
+
 ***
